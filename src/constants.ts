@@ -2,7 +2,7 @@ import { GambaStandardTokens, TokenMeta } from 'gamba-react-ui-v2'
 import { PublicKey } from '@solana/web3.js'
 
 // Can be configured in .env
-export const RPC_ENDPOINT = "https://devnet.helius-rpc.com/?api-key=e96044b0-790e-4b73-877f-3392b91a962e"
+export const RPC_ENDPOINT = "https://rpc.ankr.com/solana_devnet"
 // Change this value to your Solana address
 export const PLATFORM_CREATOR_ADDRESS = new PublicKey('V2grJiwjs25iJYqumbHyKo5MTK7SFqZSdmoRaj8QWb9')
 
