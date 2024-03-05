@@ -2,9 +2,9 @@ import { GambaStandardTokens, TokenMeta } from 'gamba-react-ui-v2'
 import { PublicKey } from '@solana/web3.js'
 
 // Can be configured in .env
-export const RPC_ENDPOINT = "https://api.devnet.solana.com"
+export const RPC_ENDPOINT = "https://api.mainnet-beta.solana.com"
 // Change this value to your Solana address
-export const PLATFORM_CREATOR_ADDRESS = new PublicKey('V2grJiwjs25iJYqumbHyKo5MTK7SFqZSdmoRaj8QWb9')
+export const PLATFORM_CREATOR_ADDRESS = new PublicKey('pdX5J8VdSz8Me7tKkK8NMFJCXG9LU8grSo1aWCXy7xy')
 
 // Appears in ShareModal
 export const PLATFORM_SHARABLE_URL = 'v2-play.gamba.so'
